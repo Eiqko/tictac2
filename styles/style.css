@@ -1,0 +1,79 @@
+body {
+	margin: 0 auto;
+	font-family: Arial;
+	background: url('bg.jpg') no-repeat;
+}
+
+input::-moz-focus-inner { 
+  border: 0; 
+}
+
+a {
+   outline: 0;
+}
+
+.submit-button {
+	margin-top: 20px;
+	width: 280px;
+	border-radius: 10px;
+	background: rgb(25, 68, 43);
+}
+.submit-button:hover{
+	background: rgb(72, 185, 119);
+
+}
+.game-area {
+	margin:0 auto;
+	text-align: center;
+	padding-top: 20px; 
+}
+
+.game-options {
+	border-bottom: 1px solid rgb(31, 32, 32);
+	padding-bottom: 20px;
+
+}
+.game-options select, .game-options input  {
+	border: 1px solid #333;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+	background: hsl(145, 42%, 26%);
+	box-shadow: 0 8px 6px -6px black;
+	outline: none;
+}
+.game-board {
+	margin-top: 50px;
+	padding: 10px;
+}
+
+.grid-box, .green-player, .red-player {
+	font-size: 35px;
+	padding: 15px 25px;
+	width: 80px;
+	height: 80px;
+	margin:0px;
+	background-color: #FCFCFC;
+	outline: none;
+	box-shadow: 0 8px 6px -6px black;
+}
+.green-player {
+	background-color: rgb(43, 94, 43);
+	color: #FFF;
+}
+.red-player {
+	background-color: rgb(156, 51, 51);
+	color: #FFF;
+}
+
+.score-card {
+	font-weight: bold;
+	line-height: 25px;
+}
+.score-card span {
+	font-weight: normal;
+}
+.score-rest{
+	font-weight: normal;
+}
+
